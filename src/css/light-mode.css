@@ -1,0 +1,44 @@
+/* Light Mode */
+body.light-mode {
+    background: #f9f9f9;
+    color: #333;
+}
+
+.light-mode .header,
+.light-mode .input-section,
+.light-mode .how-to {
+    background: #ffffff;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.light-mode input {
+    background: #ffffff;
+    border: 2px solid #e0e0e0;
+    color: #333;
+}
+
+.light-mode button {
+    background: #ff0000;
+    color: white;
+    border: none;
+}
+
+.light-mode button:hover {
+    background: #cc0000;
+}
+
+.light-mode .theme-switch button {
+    background: #f0f0f0;
+}
+
+.light-mode .theme-switch button:hover {
+    background: #e0e0e0;
+}
+
+.light-mode .result {
+    background: #f0f0f0;
+}
+
+.light-mode footer a {
+    color: #ff0000;
+}

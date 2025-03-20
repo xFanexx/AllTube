@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AllTube - Show all uploads!</title>
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="src/css/light-mode.css" id="theme-style">
+</head>
+<body class="light-mode">
+    <div class="theme-switch">
+        <button id="themeToggle" aria-label="Toggle theme">
+            <span class="theme-icon">☀️</span>
+            <span class="theme-icon moon-icon" style="display: none;">🌙</span>
+        </button>
+    </div>
+
+    <div class="container">
+        <div class="header">
+            <div class="logo">
+                <span class="logo-text">📺 AllTube</span>
+            </div>
+            <h1>YouTube All Uploads Viewer</h1>
+        </div>
+
+        <div class="input-section">
+            <div class="input-group">
+                <input type="text" id="channelId" placeholder="Enter YouTube Channel ID (e.g., UCxxxxxxxxxx)">
+                <button onclick="generateUrl()">Get Videos 🎬</button>
+            </div>
+            <div id="playlistLink" class="result"></div>
+        </div>
+
+        <div class="how-to">
+            <h2>How to use:</h2>
+            <ol>
+                <li>Go to any YouTube Channel</li>
+                <li>Look for the channel ID in the URL (starts with UC), or look at the channel details and copy the channel ID</li>
+                <li>Paste it here to get the complete uploads playlist</li>
+            </ol>
+        </div>
+    </div>
+
+    <footer>
+        <p>Made with 🩷 | <a href="https://github.com/xFanexx/AllTUbe">GitHub</a></p>
+    </footer>
+
+    <script src="src/js/themeSwitch.js"></script>
+    <script src="src/js/urlGenerator.js"></script>
+</body>
+</html>
+
+
+
+
